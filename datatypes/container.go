@@ -1401,7 +1401,7 @@ type Container_Hardware_Server_Configuration struct {
 	HardDrives []Hardware_Component `json:"hardDrives,omitempty" xmlrpc:"hardDrives,omitempty"`
 
 	// An Image Template ID [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] that will be deployed to the host.  If provided no item prices are required.
-	ImageTemplateId *int `json:"imageTemplateId,omitempty" xmlrpc:"imageTemplateId,omitempty"`
+	ImageTemplateId *string `json:"imageTemplateId,omitempty" xmlrpc:"imageTemplateId,omitempty"`
 
 	// The item prices that a server can be configured with.
 	ItemPrices []Product_Item_Price `json:"itemPrices,omitempty" xmlrpc:"itemPrices,omitempty"`
